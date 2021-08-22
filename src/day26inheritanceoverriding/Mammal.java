@@ -1,0 +1,25 @@
+package day26inheritanceoverriding;
+
+public class Mammal extends Animal {
+
+	String name="mammal";
+	int height=22;
+	byte ageOfMammal=2;
+	
+	
+//	public Mammal() {
+//	}
+	public Mammal (int height) {
+	super();
+		System.out.println(height+" cm.");
+	}
+	
+	public void move() {
+		System.out.println("Mammals move");
+	}
+
+	public void feed() {
+		System.out.println("Mammals feed their babies with milk");
+	}
+	
+}
